@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.lezhang.udacity.portfolio.MainActivity"
+    android:background="@android:color/holo_blue_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Udacity Nanodegree Apps"
+            android:id="@+id/textView"
+            android:textSize="24sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="Popular Movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_movie"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="makeToast" />
+
+        <Button
+            android:text="Stock Hawk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_stock"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="makeToast" />
+
+        <Button
+            android:text="Build It Bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_bigger"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="makeToast" />
+
+        <Button
+            android:text="Make Your App Material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_material"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="makeToast" />
+
+        <Button
+            android:text="Go Ubiquitous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_ubiquitous"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="makeToast" />
+
+        <Button
+            android:text="Capstone: ???"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_capstone"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="makeToast" />
+
+    </LinearLayout>
+</RelativeLayout>
